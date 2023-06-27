@@ -1,0 +1,13 @@
+{
+  "extends": "./node_modules/roamjs-scripts/default.tsconfig",
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react-jsx"
+  }
+}
